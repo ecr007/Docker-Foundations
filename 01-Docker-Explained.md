@@ -57,6 +57,22 @@ Docker Hub makes easily distribute images to anyone, anywhere.
 **Differences between containers and virtual machines**
 - Containers are just smaller vistual machine. 
 
+**Which of there statements is true about the Docker Client**
+On the Mac, the Docker command-container client creates and runs containers in small Linux-Base virtual Machine.
+
+**Your co-worker is having issues getting Docker, they tell you that whenever they try to use docker run, they get an error that look like this:**
+
+```Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?```
+
+Firstly, the Docker whale is visible on their task bar or systam tray and that the boxes on top of it are not moving. 
+
+* It is easy to know that Docker is working on a Mac. As long as the Docker whale is visible in your task bar and it is boxes are not moving, the Docker CLI should be configre properly.
+
+**What are some common problems with using Docker Machine to run Docker**
+
+Slow file sistem and network performance are common issues with Docker Machine, and user often need to know how to use VirtualBox to perform commom task, such as exposing network port and making volumens available. 
+ 
+
 ## Testing
 After install docker you would write in your terminal:
 
