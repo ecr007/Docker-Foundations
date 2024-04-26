@@ -56,3 +56,8 @@ Docker Hub makes easily distribute images to anyone, anywhere.
 
 **Differences between containers and virtual machines**
 - Containers are just smaller vistual machine. 
+
+## Testing
+After install docker you would write in your terminal:
+
+```docker run hello-world```
