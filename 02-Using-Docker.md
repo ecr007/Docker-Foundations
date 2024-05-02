@@ -46,5 +46,13 @@ After start a container is important to see the STATUS => Exited (0) othewise it
 
 ```docker container start --attach [CONTAINER ID]```
 
+## Create a Docker container: The short way. 
+
+```docker run IMAGE_NAME``` : to create a container, started it, and attached to the container to show is its output immediately.
+
+<img src="img/docker-run.png" alt="" />
+
+## Create a Docker container from DockerFile
+
 
 
